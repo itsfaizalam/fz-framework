@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/165965/tyfy.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="links-underlined">
+      <h1>Responsive Tabs (v1.1)</h1>
+      <p>
+        This is my implementation of responsive tabs. It is being incorporated
+        into my
+        <a href="https://github.com/itsfaizalam">Faiz framework</a>.
+      </p>
+      <p>
+        I've seen implementations of responsive tabs, but I've never been
+        particularly happy with them. The transitions in this version feel more
+        comfortable. I have also considered the problem of linking to specific
+        tabs and to anchor links within tabs.
+      </p>
+      <p>Test links to:</p>
+      <ul>
+        <li><a href="#anchor">An anchor in the second tab</a></li>
+        <li><a href="#Donec Scelerisque">The third tab</a></li>
+      </ul>
+    </section>
+
+    <section class="demo">
+      <div class="tabs-container">
+        <h2 class="tab-label">Lorem Ipsum</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas id
+          omnis iure? Dolorem sapiente laborum distinctio eum odio, quae ex
+          error molestiae enim reiciendis minima eos mollitia debitis doloribus
+          vel odit temporibus eveniet, est hic architecto quisquam quia quidem,
+          velit esse? Quia.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione nam
+          qui aut quasi id alias, modi quae odit ex nostrum odio. Ratione
+          dolorem exercitationem cum dolore fuga nisi incidunt non, modi itaque
+          ea illum at, repellendus vitae facere porro, doloribus dolorum iure?
+        </p>
+        <h2 class="tab-label collapsed">Dolor Sit Amet</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa modi
+          sint deserunt dicta voluptatum ex a provident maiores ratione dolorem
+          accusamus, in, aliquid, ducimus dolores! Ratione omnis minus debitis
+          possimus quidem quisquam totam, eum amet eligendi fugit, suscipit
+          voluptatum incidunt alias eveniet!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas id
+          omnis iure? Dolorem sapiente laborum distinctio eum odio, quae ex
+          error molestiae enim reiciendis minima eos mollitia debitis doloribus
+          vel odit temporibus eveniet, est hic architecto quisquam quia quidem,
+          velit esse? Quia.
+        </p>
+        <h2 class="tab-label collapsed">Donec Scelerisque</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+          accusantium provident possimus voluptate veritatis omnis quasi, enim,
+          magnam molestiae ab praesentium libero dolor facilis vel fuga!
+          Repellendus veniam cum, doloremque, accusantium ad quia distinctio
+          quod dicta est aliquam veritatis ullam qui voluptatem exercitationem
+          praesentium sint optio provident nihil modi obcaecati fugiat pariatur
+          illo ea. Tempore magni quisquam, suscipit nesciunt facilis dolorem
+          alias! Ducimus quaerat magni impedit voluptate quibusdam velit esse?
+        </p>
+      </div>
+      <h2>Notes</h2>
+      <p>
+        I've relied on CSS Flexbox for the visual tabs. Flexbox is
+        <a href="https://caniuse.com/#search=flex"
+          >a problem for just about any version of Internet
+          <strike>Exploder</strike> Explorer</a
+        >. At some point, I'll need to figure out an alternative way to present
+        the tabs that will work for IE.
+      </p>
+    </section>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
